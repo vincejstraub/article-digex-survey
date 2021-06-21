@@ -17,8 +17,6 @@ To start using the code and data in this repo:
 * ...
 * ...
 
-See also the list of [contributors](insert link) who are participating in this project.
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/vincejstraub/developing-exploration-behavior/blob/main/.github/CONTRIBUTING.md) for details on  code conventions, and the process for submitting changes via pull requests.
