@@ -9,7 +9,7 @@ Description of files contained in repository.
 * ...
 * ...
 
-If you are new to Git and GitHub, see the [Git and Github user guide](https://github.com/vincejstraub/tools-template-repository/blob/main/docs/github-user-guide.md) (located in `docs/`), written to suit the typical workflow of an academic researcher using GitHub.
+If you are new to Git and GitHub, see the [Git and Github user guide](https://github.com/vincejstraub/tools-template-repository/blob/main/docs/github-user-guide.md) (located in `docs/`), written to suit the typical workflow of an academic researcher using GitHub (@jwburton!). 
 
 ## Getting Started
 To start using the code and data in this repo:
