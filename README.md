@@ -24,7 +24,7 @@ See also the list of [contributors](insert link) who are participating in this p
 Please read [CONTRIBUTING.md](https://github.com/vincejstraub/developing-exploration-behavior/blob/main/.github/CONTRIBUTING.md) for details on  code conventions, and the process for submitting changes via pull requests.
 
 ## Requirements
-see the `requirements.txt` file.
+See the `requirements.txt` file.
 
 Please follow the online instructions to install the required libraries, depending on your operating system and machine specifications. 
 
