@@ -17,12 +17,6 @@ To start using the code and data in this repo:
 * ...
 * ...
 
-## Maintenance
-
-*  [Vince J. Straub](https://github.com/vincejstraub) (initial setup)
-* ...
-* ...
-
 See also the list of [contributors](insert link) who are participating in this project.
 
 ## Contributing
@@ -30,8 +24,7 @@ See also the list of [contributors](insert link) who are participating in this p
 Please read [CONTRIBUTING.md](https://github.com/vincejstraub/developing-exploration-behavior/blob/main/.github/CONTRIBUTING.md) for details on  code conventions, and the process for submitting changes via pull requests.
 
 ## Requirements
-- Python 3.7.7
-- Pandas 
+see the `requirements.txt` file.
 
 Please follow the online instructions to install the required libraries, depending on your operating system and machine specifications. 
 
