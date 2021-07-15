@@ -1,4 +1,4 @@
-# Fighting misinformation online (working title)
+# Digital experimets survey (working title)
 
 Project description.
 
