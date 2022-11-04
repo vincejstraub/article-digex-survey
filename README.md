@@ -6,6 +6,12 @@ The purpose of this survey study is to better understand public attitudes toward
 
 Description of files contained in repository.
 
+```
+├── code
+│   └──  
+├── data
+    └──  
+```
 
 ## Requirements
 
