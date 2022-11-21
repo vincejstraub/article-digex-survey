@@ -40,12 +40,7 @@ SHARING/ACCESS INFORMATION
 
 3. Links to other publicly accessible locations of the data: 
 
-4. Links/relationships to ancillary data sets: 
-
-5. Was data derived from another source? yes/no
-	A. If yes, list source(s): 
-
-6. Recommended citation for this dataset: 
+4. Recommended citation for this dataset: 
 
 
 DATA & FILE OVERVIEW
@@ -74,14 +69,6 @@ METHODOLOGICAL INFORMATION
 3. Instrument- or software-specific information needed to interpret the data: 
 <include full name and version of software, and any necessary packages or libraries needed to run scripts>
 
-4. Standards and calibration information, if appropriate: 
-
-5. Environmental/experimental conditions: 
-
-6. Describe any quality-assurance procedures performed on the data: 
-
-7. People involved with sample collection, processing, analysis and/or submission: 
-
 
 DATA-SPECIFIC INFORMATION FOR: [FILENAME]
 <repeat this section for each dataset, folder or file, as appropriate>
@@ -92,8 +79,3 @@ DATA-SPECIFIC INFORMATION FOR: [FILENAME]
 
 3. Variable List: 
 <list variable name(s), description(s), unit(s)and value labels as appropriate for each>
-
-4. Missing data codes: 
-<list code/symbol and definition>n
-
-5. Specialized formats or other abbreviations used:
