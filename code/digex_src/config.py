@@ -17,7 +17,7 @@ RAW_DATA_FILEPATH = 'digex-survey-responses-raw.xlsx'
 PROCESSED_DATA_FILEPATH = 'digex-survey-responses-processed.csv'
 
 COLS_TO_DROP = [
-    'start_date', 'end_date', 'status', 'progress', 'duration_sec',
+    'start_date', 'end_date', 'status', 'progress', 
     'finished', 'date', 'consent', 'q_recaptcha_scor', 'date'
 ]
 
@@ -137,6 +137,7 @@ AWARE_ANSWERS = {
 
 VARIABLE_TABLE_DICT = {
     'variable abbreviation': [
+        'duration_sec',
         'sm_use', 
         'age', 'gender_id', 'ethnic_id', 'edu', 'politic_views',
         'aware_sm_res', 
@@ -156,6 +157,7 @@ VARIABLE_TABLE_DICT = {
         'rank_add_fac_2', 'rank_add_fac_2_pos','rank_add_fac_3', 'rank_add_fac_3_pos'
     ],
     'variable name': [
+        'duration (seconds)',
         'social media use', 
         'age', 'gender identity', 'ethnic identity', 'education level', 'political viewpoint', 
         'awareness of social media research',
@@ -177,6 +179,7 @@ VARIABLE_TABLE_DICT = {
         'additional factor suggested 3 ranking'
     ], 
     'survey section' : [
+        'metadata',
         'demographics', 
         'demographics', 'demographics', 'demographics', 'demographics','demographics',  
         'prior awareness', 

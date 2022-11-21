@@ -52,7 +52,7 @@ DATA-SPECIFIC INFORMATION FOR: digex-survey-responses-processed.csv
 
 
 1. Number of variables: 
-49
+50
 
 2. Number of cases/rows: 
 499
