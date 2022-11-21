@@ -29,11 +29,9 @@ Description of files contained in repository:
 
 To reproduce the analysis, clone the repository and run the following command from within the `code/` directory:
 
-```bash
-python run_analysis.py
+```console
+foo@bar:~$ python run_analysis.py
 ```
-
-
 
 ## Requirements
 
@@ -43,4 +41,4 @@ Please follow the online instructions to install the required libraries, dependi
 
 ## License
 
-This project is yet to be made publicly available hence no license is included. 
+MIT License. See the `LICENSE.MD` file for details.
