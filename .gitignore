@@ -2,3 +2,4 @@ venv
 archive/
 lab.ipynb
 preprocessing.ipynb
+.DS_Store
