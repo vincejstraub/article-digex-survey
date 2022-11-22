@@ -9,6 +9,8 @@ digex_src modules, and the run_analysis.py script.
 from pandas.api.types import CategoricalDtype
 
 
+DECIMAL_PLACES = 3
+
 ROOT_DIR = 'article-digex-survey/'
 REPORTS_DIR = 'reports/'
 RAW_DATA_DIR = 'data/raw/'
@@ -16,9 +18,11 @@ PROCESSED_DATA_DIR = 'data/processed/'
 RAW_DATA_FILEPATH = 'digex-survey-responses-raw.xlsx'
 PROCESSED_DATA_FILEPATH = 'digex-survey-responses-processed.csv'
 
+PARTICIPANT_COUNT = 500
+
 COLS_TO_DROP = [
     'start_date', 'end_date', 'status', 'progress', 
-    'finished', 'date', 'consent', 'q_recaptcha_scor', 'date'
+    'date', 'consent', 'q_recaptcha_scor', 'date'
 ]
 
 edu_order = [
@@ -49,8 +53,8 @@ design_cat_dtype = CategoricalDtype(
 )
 
 ethi_acc_order = [
-     'Completey unacceptable', 'Somewhat unacceptable', 'Neutral',
-     'Somewhat acceptable', 'Completey acceptable'
+     'Completely unacceptable', 'Somewhat unacceptable', 'Neutral',
+     'Somewhat acceptable', 'Completely acceptable'
 ]
 
 ethic_acc_cat_dtype = CategoricalDtype(
@@ -59,8 +63,9 @@ ethic_acc_cat_dtype = CategoricalDtype(
 
 
 DTYPES_COLS = [
+    {'bool' : ['finished']},
     {'float' : [
-        'age', 'rank_sci_repro', 'rank_resp', 'rank_just',
+        'duration_sec', 'age', 'rank_sci_repro', 'rank_resp', 'rank_just',
         'rank_anony', 'rank_harms', 'rank_balance', 'rank_pub_interst',
         'rank_add_fac_1_pos', 'rank_add_fac_2_pos', 'rank_add_fac_3_pos'
     ]},
@@ -137,6 +142,7 @@ AWARE_ANSWERS = {
 
 VARIABLE_TABLE_DICT = {
     'variable abbreviation': [
+        'finished',
         'duration_sec',
         'sm_use', 
         'age', 'gender_id', 'ethnic_id', 'edu', 'politic_views',
@@ -157,6 +163,7 @@ VARIABLE_TABLE_DICT = {
         'rank_add_fac_2', 'rank_add_fac_2_pos','rank_add_fac_3', 'rank_add_fac_3_pos'
     ],
     'variable name': [
+        'finished',
         'duration (seconds)',
         'social media use', 
         'age', 'gender identity', 'ethnic identity', 'education level', 'political viewpoint', 
@@ -170,8 +177,8 @@ VARIABLE_TABLE_DICT = {
         'concerns about study 3', 'addition information wanted for study 3', 'ethical acceptance of study 4', 
         'concerns about study 4', 'addition information wanted for study 4', 
         'content of data', 
-        'number of users studied', 'research purpose', 'type of data', 'length of data collection', 'administration of intervention',
-        'type of intervention', 'participant awareness of study', 'impact of intervention', 'additional design factors', 
+        'number of users studied', 'research purpose', 'length of data collection', 'administration of intervention',
+        'type of intervention', 'participant awareness of study', 'impact of intervention', 'type of data', 'additional design factors', 
         'scientific reproducibility', 'respect for participants via informed consent', 'just and fair study design', 
         'safeguard participant anonymity', 'avoid harms at all costs', 'balance benefits versus risks', 
         'respect the law and wider public interest', 'additional factor suggested 1', 'additional factor suggested 1 ranking', 
@@ -179,6 +186,7 @@ VARIABLE_TABLE_DICT = {
         'additional factor suggested 3 ranking'
     ], 
     'survey section' : [
+        'metadata',
         'metadata',
         'demographics', 
         'demographics', 'demographics', 'demographics', 'demographics','demographics',  
