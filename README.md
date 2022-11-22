@@ -1,6 +1,8 @@
 ## Updates
 
-_Hi Jason, I hope this README and the various notebooks and module docstrings make everything clear to follow :) I've only been able to work on the project on weekends the last month but I will free some time up in December to try and do as much of the analysis as possible pre Christmas. Looking forward to hearing your thoughts on the structure and getting started with the exploratory data anlaysis._
+22 Nov 2022
+
+Hi Jason, I hope this README and the various notebooks and module docstrings make everything clear to follow :) I've only been able to work on the project on weekends the last month but I will free some time up in December to try and do as much of the analysis as possible pre Christmas. Looking forward to hearing your thoughts on the structure and getting started with the exploratory data anlaysis.
 ___________________________________________
 
 # Public Attitudes and Ethical Guidelines in Digital Field Experiments (digex)
