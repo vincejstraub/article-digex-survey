@@ -9,6 +9,12 @@ digex_src modules, and the run_analysis.py script.
 from pandas.api.types import CategoricalDtype
 
 
+PALETTE = [
+    '#011959', '#0f395f', '#165062', '#27635f',
+    '#48714f', '#6d7c3b', '#97882c', '#c49138',
+    '#eb9a60', '#fca995', '#fdbac7', '#faccfa'
+]
+
 DECIMAL_PLACES = 3
 
 ROOT_DIR = 'article-digex-survey/'
@@ -17,6 +23,7 @@ RAW_DATA_DIR = 'data/raw/'
 PROCESSED_DATA_DIR = 'data/processed/'
 RAW_DATA_FILEPATH = 'digex-survey-responses-raw.xlsx'
 PROCESSED_DATA_FILEPATH = 'digex-survey-responses-processed.csv'
+MPL_STYLE_FILEPATH = './digex_src/digex_style.mplstyle'
 
 PARTICIPANT_COUNT = 500
 
