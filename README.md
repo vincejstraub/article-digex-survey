@@ -4,7 +4,8 @@ Rolling summary of updates and status report:
 
 **Demographics table and plotting setup file 23 Nov 2022**
 
-- A style file with suggestions for standards we can use for plotting (e.g. a font for figure labels, a colour palette) has been added to digex_src. 
+- A style file with standards we can use for plotting (e.g. a font for figure labels, a colour palette) has been added to digex_src
+- A colour palette has been added to all plotting notebooks
 - I've added all the summary stats we both computed for the demographic variables 2-7 to 02-digex-summary-statistics 
 
 
