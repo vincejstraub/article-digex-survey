@@ -60,7 +60,7 @@ def completion_time(df, col='duration_sec', time_unit='sec'):
     
 def demographic_information(df,
                             var_list=['age', 'gender_id', 'ethnic_id',
-                               'edu', 'politic_views', 'sm_use'],
+                               'edu', 'politic_views'],
                             age_vars = ['Average', 'Standard deviation', 
                                  'Min', 'Max'],
                             num_val = 'age',
