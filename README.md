@@ -2,10 +2,15 @@
 
 Rolling summary of updates and status report:
 
+**Demographics table and plotting setup file 22 Nov 2022**
 
-**DD MM YYYY**
+- A setup file with suggestions for standards we can use for plotting (e.g. a font for figure labels, a colour palette) has been added to digex_src. 
+- A table of summary statistics for the demographic variables 2-7 can be found in 02-digex-summary-statistics and the Google Drive folder [3-output-files/2-tables/](https://drive.google.com/drive/folders/1NWq_7223JvBNOuY7QehoZs_gn73cuzvR?usp=share_link)
 
-_Update_
+
+**Update title  DD Month YYYY**
+
+Description of update
 
 ___________________________________________
 
