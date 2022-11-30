@@ -1,12 +1,11 @@
-## Updates and status report
+## Updates 
 
-Rolling summary of updates and status report:
+Rolling summary of updates to be ware of (minor edits are documented within notebooks):
 
 **Demographics table and plotting setup file 23 Nov 2022**
 
-- A style file with standards we can use for plotting (e.g. a font for figure labels, a colour palette) has been added to digex_src
-- A colour palette has been added to all plotting notebooks
-- I've added all the summary stats we both computed for the demographic variables 2-7 to 02-digex-summary-statistics 
+- A style file with standards we can use for plotting (e.g. a font for figure labels, a colour palette) has been added to digex_src and a colour palette to all plotting notebooks that we can use for final figures
+- All summary stats for the demographic variables 2-7 are now in 02-digex-summary-statistics 
 
 
 **Update title  DD Month YYYY**
