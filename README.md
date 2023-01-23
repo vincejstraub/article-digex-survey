@@ -1,16 +1,12 @@
-## Updates 
+## Latest update
 
-Rolling summary of updates to be ware of (minor edits are documented within notebooks):
+Rolling summary of latest update to be aware of (minor edits are documented within notebooks):
 
-**Demographics table and plotting setup file 23 Nov 2022**
+**Plotting defaults updated Jan 2023**
 
-- A style file with standards we can use for plotting (e.g. a font for figure labels, a colour palette) has been added to digex_src and a colour palette to all plotting notebooks that we can use for final figures
-- All summary stats for the demographic variables 2-7 are now in 02-digex-summary-statistics 
+- The column order been updated for `digex-survey-responses-raw.xlsx` to reflect the variable-table.html; i.e., digex_df columns now match the variable-table order
+- The code snippet `mpl.rcParams['figure.dpi'] = 200` has been added to each plotting notebook; change the dpi value to increase the size of figures.
 
-
-**Update title  DD Month YYYY**
-
-Description of update
 
 ___________________________________________
 

@@ -32,6 +32,7 @@ MAX_NA_RESPONE_LEN = config.MAX_NA_RESPONE_LEN
 COLS_WITH_NA_RESPONSES = config.COLS_WITH_NA_RESPONSES
 AWARE_ANSWERS = config.AWARE_ANSWERS
 VARIABLE_TABLE_DICT = config.VARIABLE_TABLE_DICT
+# COLS_FINAL_ORDER = config.COLS_FINAL_ORDER
 
 
 def preprocess_data(
@@ -73,6 +74,9 @@ def preprocess_data(
             seq2=AWARE_ANSWERS[col].keys(), 
             value_dic=AWARE_ANSWERS[col]
         )
+    
+    # reorder cols to align variable table
+    df = df[config.VARIABLE_TABLE_DICT['variable abbreviation']]    
 
     generate_html_table_from_df(
         dic=VARIABLE_TABLE_DICT, out_dir=REPORTS_DIR, filename='variable-table'
