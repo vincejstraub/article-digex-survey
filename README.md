@@ -1,15 +1,3 @@
-## Latest update
-
-Rolling summary of latest update to be aware of (minor edits are documented within notebooks):
-
-**Plotting defaults updated Jan 2023**
-
-- The column order been updated for `digex-survey-responses-raw.xlsx` to reflect the variable-table.html; i.e., digex_df columns now match the variable-table order
-- The code snippet `mpl.rcParams['figure.dpi'] = 200` has been added to each plotting notebook; change the dpi value to increase the size of figures.
-
-
-___________________________________________
-
 # Public Attitudes and Ethical Guidelines in Digital Field Experiments (digex)
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) 
