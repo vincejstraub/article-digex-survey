@@ -1,10 +1,8 @@
 # Public attitudes towards social media field experiments (digex)
 
-This article has been published and can be accessed via the link below:
+The code contained in this repository was used for an article that now been published and can be accessed via the link below:
 
-> Straub, V.J., Burton, J.W., Geers, M. et al. Public attitudes towards social media field experiments. Sci Rep **14**, 26110 (2024). (https://doi.org/10.1038/s41598-024-76948-z)[https://doi.org/10.1038/s41598-024-76948-z]
-
-The purpose of this survey study is to better understand public attitudes towards the research practices and the use of social media data in academic studies, particularly digital field experiments. This is important because social media data are increasingly used in academic studies despite a lack of clear and consistent ethical standards to guide researchers. Our results provide a guide on what the public think of current academic practices and highlight what factors researchers need to take into account to ensure their studies can best align with and benefit the broader public.
+> Straub, V.J., Burton, J.W., Geers, M. et al. Public attitudes towards social media field experiments. Sci Rep **14**, 26110 (2024). [https://doi.org/10.1038/s41598-024-76948-z](https://doi.org/10.1038/s41598-024-76948-z)
 
 ## Installation and use
 
